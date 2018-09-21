@@ -9,7 +9,7 @@ def run_guessing_game
       if randomNumber == guessedNumber
         puts "Winner"
       else
-        run_guessing_game()
+       # run_guessing_game()
       end
     end
 end
