@@ -1,9 +1,9 @@
 # Code your solution here!
-def random_guessing_game
+def run_guessing_game
   randomNumber = rand(5) 
   puts "Guess a number 1-5"
-  gussedNumber = gets.chomp
-  if gussedNumber == "Exit"
+  guessedNumber = gets.chomp
+  if guessedNumber == "Exit"
       puts "Goodbye"
     else
       if randomNumber == gussedNumber
