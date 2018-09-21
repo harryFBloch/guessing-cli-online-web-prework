@@ -6,8 +6,8 @@ def run_guessing_game
   if guessedNumber == "exit"
       puts "Goodbye!"
   else
-      if randomNumber == guessedNumber
-        puts "Winner"
+      if randomNumber == guessedNumber.to_i
+        puts "You guessed the correct number!"
       else
        # run_guessing_game()
       end
